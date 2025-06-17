@@ -1,0 +1,9 @@
+# 秘匿ログを除外
+log/
+*.log
+*.err
+
+# OS・エディタ固有ファイル
+.DS_Store
+Thumbs.db
+.vscode/
