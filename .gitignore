@@ -1,10 +1,15 @@
-# 秘匿ログを除外
-log/
-*.log
-*.err
-
-# OS・エディタ固有ファイル
-.DS_Store
-Thumbs.db
-.vscode/
-./AI-TCP
+{
+  "model": "google/gemma-3-4b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are GeminiCLI communicating with google/gemma-3-4b via AI-TCP. Respond with simple confirmation."
+    },
+    {
+      "role": "user",
+      "content": "Ping test: Confirm connectivity and respond with a unique timestamp."
+    }
+  ],
+  "temperature": 0.2,
+  "stream": false
+}
